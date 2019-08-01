@@ -2,133 +2,54 @@
 <html>
 
 <head>
-  <title>Contact Me</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/images/rocketship.ico">
   <link rel="stylesheet" href="assets/css/stylesheet.css">
 </head>
 
-<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet">
-<link rel="icon" href="assets/images/rocketship.ico">
 
 <body>
   <div class="container">
+      <div class="row" id="header">
+          <div class="col-5">
+            <h1>John Henry Weber</h1>
+          </div>
+          <div class="col-7" id="nav-links">
+            <h2>
+              <a href="index.html">About</a> | 
+              <a href="portfolio.html">Portfolio</a> | 
+              <a href="contact.html">Contact</a>
+            </h2>
+          </div>
+        </div>
     <div class="row">
-      <nav class="navbar navbar-expand-lg navbar-black bg-white" id="navbar-all">
-        <a class="navbar-brand" href="#">
-          <h3>John Henry Weber</h3>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavAltMarkup">
-            <div class="navbar-nav" id="navigation">
-              <a class="nav-item nav-link active" href="index.html">About<span class="sr-only"></span></a>
-              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-              <a class="nav-item nav-link" href="contact.html">Contact</a>
-            </div>
-          </div>
-      </nav>
-      <div id="full-lenth-bar"></div>
+      <div class="col-12" id="title-row"><h2>Contact Page</h2></div>
     </div>
-    <h1 id="page-title">Contact Us</h1>
 
-    <!-- I am leavinng this here so I can ask about it during tutoring:  -->
-    <!-- <form>
-        <div class="form-group row">
-          <div class="col-xs-5">
-            <label for="ex1">col-xs-2</label>
-            <input class="form-control" id="ex1" type="text">
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-xs-5">
-            <label for="ex2">col-xs-3</label>
-            <input class="form-control" id="ex2" type="text">
-          </div>
-         </div>
-          <div class="form-group row">
-          <div class="col-xs-5">
-            <label for="ex3">col-xs-4</label>
-            <input class="form-control" id="ex3" type="text">
-          </div>
-        </div>
-    </form> -->
+    <div>
+      <form action="">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fname" name="fullname" placeholder="Your name..">
 
-    <!-- <form>
-      
-      <div class="form-group row">
-          <div class="col-xs-12">
-            <label for="exampleInputEmail1">Name:</label>
-            <input type="email" class="form-control" id="nameInput" placeholder="Full Name">
-          </div>
-      </div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your email address..">
+        <label for="message">Details of Inquiry:</label><br />
+        <textarea type="text" name="message" placeholder="Please be specific!"></textarea>
 
-      <div class="form-group row">
-        <div class="col-xs-4">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="name" class="form-control" id="nameInput" placeholder="Email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-      </div>
-      
-      <div class="form-group row">
-        <div class="col-xs-8">
-        <label for="exampleFormControlTextarea1">Details of Inquiry:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        </div>
-      <div class="form-group row">
-      <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
+        <input type="submit" value="Submit">
       </form>
     </div>
-  </div> -->
-
-    <!-- <div class="form-group row"> -->
-    <div class="row">
-      <!-- <div class="container"> -->
-      <h2>Contact Me:</h2>
-    </div>
-    <!-- <div class="form-group row"> -->
-        <div class="row">
-      <p>Please include your name, email, and a short message regarding your inquiry.</p>
-    </div>
-    <form>
-      <!-- <div class="form-group row"> -->
-      <div class="row">
-        <div class="col-xs-7">
-          <label for="ex1">Name:</label>
-          <input class="form-control" type="text">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-7">
-          <label for="ex2">Email:</label>
-          <input class="form-control" type="text">
-        </div>
-      </div>
-
-      <!-- <div class="form-group row"> -->
-      <div class="row">  
-        <div class="col-xs-7">
-          <label for="ex3">Details of Inquiry:</label>
-          <textarea class="form-control" type="text"></textarea>
-        </div>
-      </div>
-      <!-- <div class="form-group row"> -->
-          <div class="row">
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    </form>
 
     <div class="row">
-      <footer class="footer" id="footer-id">
-        &#169; John Henry Weber, 2019
-      </footer>
+        <div class="col-12">
+          <footer class="footer" id="footer-id">
+            &#169; John Henry Weber, 2019
+          </footer>
+        </div>
+      </div>
+
     </div>
-  </div>
-</body>
-
-
-</html>
+    </body>
+    </
